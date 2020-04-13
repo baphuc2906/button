@@ -24,17 +24,19 @@
     border-radius: 5px;
     box-shadow: inset 0px 5px 5px 3px #ffffff94, inset 0px -5px 8px 1px black;
     text-shadow: 0px -3px 5px black, 0px 4px 6px white;
-}
-
-.button-block {
-    display: block;
-    width: 350px;
-    height: 150px;
-}
-
-.gradient-text {
     font-weight: 500;
     font-size: 18px;
     color: black;
     text-transform: capitalize;
 }
+
+.button-block {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.gradient-text {}
